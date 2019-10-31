@@ -1,0 +1,5 @@
+SELECT *
+FROM PRINTER
+WHERE color = 'y'
+ORDER BY code ASC
+
