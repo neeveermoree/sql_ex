@@ -1,0 +1,6 @@
+SELECT hd
+FROM PC
+GROUP BY hd
+HAVING COUNT(hd) > 1
+ORDER BY hd ASC
+
